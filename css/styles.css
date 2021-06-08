@@ -1,0 +1,32 @@
+/*effects & animation*/
+.sky {
+	width: 100%;
+	position: relative;
+}
+.baloon {
+	width: 2000px;
+	position: absolute;
+	top: 40px;
+	left: 50px;
+	animation: baloon 29s infinite;
+}
+.bird {
+	position: absolute;
+	width: 600px;
+	top: 600px;
+	transform: rotate(-50deg);
+	animation: bird 10s infinite;
+}
+
+/*Keyframes*/
+@keyframes bird {
+	0%{right: 3%;}
+	25%{right: 30%; top: 10%}
+	70%{right: 75%;}
+	95%{right: 100%; bottom: 5%}
+}
+
+@keyframes baloon {
+    from {left: 0px;}
+  to {left: 100%;}
+}
