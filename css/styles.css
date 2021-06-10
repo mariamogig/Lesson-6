@@ -9,17 +9,17 @@
 	z-index: 1;
 }
 .baloon {
-	width: 2000px;
+	width: 1000px;
 	position: absolute;
-	top: 40px;
+	top: 400px;
 	left: 50px;
 	animation: baloon 28s infinite;
 	z-index: 3;
 }
 .bird {
 	position: absolute;
-	width: 600px;
-	top: 600px;
+	width: 300px;
+	top: 900px;
 	transform: rotate(-50deg);
 	animation: bird 10s infinite;
 	z-index: 2;
@@ -35,5 +35,5 @@
 
 @keyframes baloon {
     from {left: 0px;}
-    to {left: 80%;}
+    to {left: 100%;}
 }
